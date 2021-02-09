@@ -13,6 +13,7 @@
 		E06F6E3025D2B014008DF8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F6E2E25D2B014008DF8E1 /* Main.storyboard */; };
 		E06F6E3225D2B016008DF8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06F6E3125D2B016008DF8E1 /* Assets.xcassets */; };
 		E06F6E3525D2B016008DF8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F6E3325D2B016008DF8E1 /* LaunchScreen.storyboard */; };
+		E06F6E3E25D2B259008DF8E1 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F6E3D25D2B259008DF8E1 /* GameVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E06F6E3125D2B016008DF8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E06F6E3425D2B016008DF8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E06F6E3625D2B016008DF8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06F6E3D25D2B259008DF8E1 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E06F6E2825D2B014008DF8E1 /* AppDelegate.swift */,
 				E06F6E2A25D2B014008DF8E1 /* SceneDelegate.swift */,
 				E06F6E2C25D2B014008DF8E1 /* ViewController.swift */,
+				E06F6E3D25D2B259008DF8E1 /* GameVC.swift */,
 				E06F6E2E25D2B014008DF8E1 /* Main.storyboard */,
 				E06F6E3125D2B016008DF8E1 /* Assets.xcassets */,
 				E06F6E3325D2B016008DF8E1 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				E06F6E2D25D2B014008DF8E1 /* ViewController.swift in Sources */,
 				E06F6E2925D2B014008DF8E1 /* AppDelegate.swift in Sources */,
+				E06F6E3E25D2B259008DF8E1 /* GameVC.swift in Sources */,
 				E06F6E2B25D2B014008DF8E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

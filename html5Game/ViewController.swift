@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func startGameButtonClicked(_ sender: Any) {
+        
+        let gameVC = storyboard?.instantiateViewController(withIdentifier: "Game") as! GameVC
+        gameVC.modalPresentationStyle = .fullScreen
+        present(gameVC, animated: true, completion: nil)
+        
+    }
+    
 }
 
